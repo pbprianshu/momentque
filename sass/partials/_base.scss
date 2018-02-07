@@ -1,14 +1,11 @@
-.carousel-indicators {
-
-	position: absolute;
+.carousel-indicators#firstsleek {
+    position: absolute;
 	bottom: 23em;
 	z-index: 15;
 	width: 60px;
 	margin-left: 20px;
 	list-style: none;
 	text-align: center;
-	
-	/*right: 5%;*/
     left:90%;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -23,36 +20,27 @@
 	position: relative;
 	z-index: 0;
 	border-radius: 50%;
-	/*margin-bottom: 10px; */
 	border: 1px solid #ffffff;
 	background-color: transparent;
 	
 }
-/*.carousel-indicators .active {
-	width: 12px;
-	height: 12px;
-	margin-bottom: 10px;
-	background-color: #fff;
-}*/
 .container-fluid#MainContainer {
     padding-right: 1px;
     padding-left: 1px;
     margin-right: 0;
     margin-left: 0;
     overflow-x: hidden;
-    /*position: relative;*/
     padding-top: 0px;
 }
 .carousel-item img {
 	width: 1400px;
 	height: 677px;
 }
-
-
-
-
-
-
+.carousel{
+   position: relative;
+   z-index: 1;
+   margin-bottom: 5em;
+}
 
 .navbar-expand-lg{
 	position: absolute;
@@ -63,12 +51,6 @@
     text-align: center;
     color: white;
     top: 3.5%;
- 
-    /*left: 240px;
-    margin-right: 250px;*/
-
-     
-     
 }
 .navbar-expand-lg .navbar-nav>li>a
 {   
@@ -76,10 +58,6 @@
     margin-bottom: 0px;
     margin-right: 40px;
     font-weight: bold;
-
-
-    
-    
 }
 .navbar-expand-lg .navbar-nav>li:nth-child(3)
 {
@@ -87,32 +65,14 @@
     margin-bottom: 0px;
     margin-right: 20px;
     font-weight: bold;
-    
-    
 }
-
-
 .navbar-dark{
 	text-decoration: none;
 }
-
-
-
-
 .navbar .navbar-brand{
 	color: #ffffff;
 	font-size: 0.8em;
-	
-	
 }
-
-
-
-
-
-
-
-
 
 #logo{
 	position: absolute;
@@ -123,11 +83,7 @@
 	width: 386px;
 	
 }
-.carousel{
-   position: relative;
-   z-index: 1;
-   margin-bottom: 5em;
-}
+
 img#logo1{
 	height: 364px;
 	width: 386px;

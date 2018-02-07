@@ -1,0 +1,204 @@
+/* line 1, ../../sass/partials/row8.scss */
+.opaque {
+  background-color: #000000;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+/* line 10, ../../sass/partials/row8.scss */
+.no-gutters {
+  margin-left: -3%;
+}
+
+/* line 14, ../../sass/partials/row8.scss */
+.row#row7 {
+  position: relative;
+  z-index: 1;
+  background-image: url("../images/pexels-photo-265728-min.jpg");
+  background-size: 100% 100%;
+  color: white;
+}
+
+/* line 22, ../../sass/partials/row8.scss */
+.logo3 {
+  height: 222px;
+  width: 60%;
+  margin-left: 35%;
+  margin-top: 32%;
+  text-align: center;
+}
+
+/* line 29, ../../sass/partials/row8.scss */
+.text1row7 {
+  padding-top: 35px;
+  font-size: 48px;
+  /* Approximation due to font substitution */
+  line-height: 72px;
+  /* Approximation due to font substitution */
+  font-family: 'Great Vibes',cursive;
+  text-align: center;
+}
+
+/* line 37, ../../sass/partials/row8.scss */
+.text1row71 {
+  font-size: 24px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  line-height: 30px;
+  /* Approximation due to font substitution */
+  text-align: left;
+  font-family: 'Great Vibes',cursive;
+  margin-left: 10px;
+}
+
+/* line 47, ../../sass/partials/row8.scss */
+.text1row72 {
+  font-size: 48px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  line-height: 72px;
+  /* Approximation due to font substitution */
+  font-family: 'Great Vibes',cursive;
+  text-align: center;
+  margin-right: 17%;
+}
+
+/* line 55, ../../sass/partials/row8.scss */
+.text2row71 {
+  font-size: 24px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  line-height: 30px;
+  /* Approximation due to font substitution */
+  text-align: left;
+  font-family: 'Great Vibes',cursive;
+  margin-left: 10px;
+}
+
+/* line 63, ../../sass/partials/row8.scss */
+.circle {
+  border-radius: 50%;
+  font-size: 190%;
+  margin-top: -1em;
+  text-align: center;
+}
+
+/* line 71, ../../sass/partials/row8.scss */
+.fa-twitter {
+  background: white;
+  color: black;
+  padding: 0.23em 0.26em;
+  margin-left: 5%;
+}
+
+/* line 77, ../../sass/partials/row8.scss */
+.fa-google {
+  color: black;
+  background: white;
+  padding: 0.23em 0.26em;
+  margin-left: 5%;
+}
+
+/* line 83, ../../sass/partials/row8.scss */
+.fa-pinterest {
+  color: black;
+  background: white;
+  padding: 0.23em 0.26em;
+  margin-left: 5%;
+}
+
+/* line 89, ../../sass/partials/row8.scss */
+.fa-facebook {
+  background: white;
+  color: black;
+  padding: 0.23em 0.42em;
+}
+
+/* line 94, ../../sass/partials/row8.scss */
+.fa-instagram {
+  background: white;
+  color: black;
+  padding: 0.23em 0.26em;
+  margin-left: 5%;
+}
+
+/* line 100, ../../sass/partials/row8.scss */
+.fa-rotate-45 {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(60deg);
+}
+
+/* line 108, ../../sass/partials/row8.scss */
+input {
+  font-family: 'Great Vibes',cursive;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 470px;
+  height: 44px;
+  color: #6c6c6c;
+  font-size: 24px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  line-height: 72px;
+  /* Approximation due to font substitution */
+  margin-bottom: 13px;
+}
+
+/* line 120, ../../sass/partials/row8.scss */
+textarea {
+  font-family: 'Great Vibes',cursive;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #6c6c6c;
+  font-size: 24px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  line-height: 72px;
+  /* Approximation due to font substitution */
+  margin-bottom: 43px;
+}
+
+/* line 130, ../../sass/partials/row8.scss */
+button {
+  float: right;
+  font-family: 'Great Vibes',cursive;
+  font-size: 24px;
+  /* Approximation due to font substitution */
+  font-weight: 400px;
+  line-height: 72px;
+  /* Approximation due to font substitution */
+  width: 35%;
+}
+/* line 137, ../../sass/partials/row8.scss */
+button i {
+  float: left;
+  margin-right: 15px;
+}
+/* line 141, ../../sass/partials/row8.scss */
+button span {
+  float: left;
+}
+
+/* line 145, ../../sass/partials/row8.scss */
+footer {
+  font-family: 'Great Vibes',cursive;
+  color: #ffffff;
+  font-size: 24px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  line-height: 32px;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+
+/* line 153, ../../sass/partials/row8.scss */
+.row#row8 {
+  margin-top: 6%;
+  width: 100%;
+}

@@ -11,6 +11,12 @@
 }*/
 @include font-face("Maratre",font-files("Maratre.otf","Maratre.ttf", "maratre.eot", "maratre.woff","maratre.woff2"));
 
+@media (min-width: 992px) {
+    .carousel-item.active-next {
+        display: flex;
+    }
+}
+
 
 
 h1{
@@ -36,6 +42,7 @@ h1{
 	overflow-y: hidden;
 	overflow-x: hidden;
 }
+
 .row#row4
 {
 	overflow-x: hidden;
@@ -43,17 +50,123 @@ h1{
 	padding-top: 40px;
 	margin-bottom: 40px;
 }
-.row#row6{
 
-	background-size: 100% 376px;
-	height: 376px;
+
+
+
+.row#row6{
+    
+	padding-top: 1.4%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	padding-left: 7%;
+	padding-bottom: -100px;
+	margin-bottom: 100px;
+
+
+}
+.ellipse{
+	width: 87%;
+	height: 355px;
+	
+	position: relative;
+	z-index: 0;
+
+}
+.text1row6{
+   position: absolute;
+   z-index: 1;
+   margin-top: 15px;
+   width: 85;
+   margin-left: 5%;
+   font-family: Maratre;
+   color: #ff9797;;
+   font-size: 48px;/* Approximation due to font substitution */
+font-weight: 400;
+line-height: 72px;
+
+}
+.text2row6{
+   position: absolute;
+   z-index: 2;
+   margin-top: 90px;
+   width: 65%;
+   margin-left: 5%;
+   font-family: 'Great Vibes', cursive;
+   color: #6c6c6c;
+   font-size: 24px;/* Approximation due to font substitution */
+font-weight: 400;
+line-height: 28px;
+
+}
+.logorow6{
+   position: absolute;
+   z-index: 1;
+   height: 130px;
+   width: 150px;
+   margin-top: 100px;
+   margin-left: 15%;
+}
+.carousel-indicators#second-sleek{
+	position: absolute;
+	bottom: 23em;
+	z-index: 15;
+	width: 60px;
+	list-style: none;
+	text-align: center;
+}
+#profile{
+	width: 80px;
+	height: 80px;
+	border: 3px solid white;
+	margin-left: 30%;
+	margin-top: 10px;
+}
+.card{
+	background-color: transparent;
+	border-color: transparent;
+	color: white;
+	font-family: 'Great Vibes', cursive;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding-right: 50px;
+	margin-top: 0px;
+	position: relative;
+    z-index: 0;
+	
+}
+.container#row6{
+	margin: 0;
 }
 
 
+.carousel-indicators#secondsleek li{
+	display: block;
+	width: 12px;
+	height: 12px;
+	position: relative;
+	z-index: 0;
+	border-radius: 50%;
+	/*margin-bottom: 10px; */
+	border: 1px solid #ffffff;
+	
+}
 
-
-
-
+.container#testimonials{
+	border: 1px solid black;
+}
+.bar{
+	position: absolute;
+	left: 47%;
+	top: 20%;
+	z-index: 2;
+}
+.dot{
+	position: relative;
+	left: 46%;
+	top: 40%;
+	z-index: 3;
+}
 
 
 
@@ -248,7 +361,7 @@ width: 67%;
 
 
 
-
+@import "partials/row8";
 @import "partials/media";
 
 /*Extra-----------------*/
