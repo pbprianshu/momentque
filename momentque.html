@@ -13,54 +13,101 @@
 </head>
 
 <body>
+  <div class="parent">
+  <div class="hearts">
+    <span>&hearts;</span>
+  </div>
+</div>
       
-  <div class="container-fluid" id="MainContainer">  
+  <div class="container-fluid" id="MainContainer" >  
 <!-- ROW FIRST....................................................-->
-      <div class="row">
-         <div class="col-sm-12">
-       
-              <nav class="navbar navbar-expand-lg navbar-dark " >
+ 
+      <div class="row" id="row1">
+        <!--<div class="container" id="row1container">
+         <div class=" col-lg-12 col-md-12 col-sm-12">
+              
+               <nav class="navbar navbar-expand-lg navbar-dark " >
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                              <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                     </button>
                   
-                      <div class="container">
-                    <div class="col-sm-9">
-                    </div>
-                    <div class="col-sm-3">
+                    <div class="container"> 
+                      
+                        
                     <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
-                         <!--<a class="navbar-brand" href="#">mr-auto mt-2 mt-lg-0</a>-->
+                       
                           <ul class="navbar-nav mr-auto w-100 justify-content-center">
                               <li class="nav-item active">
-                                  <a class="nav-link navbar-brand" href="#">Home<span class="sr-only">(current)</span></a>
+                                  <a class="nav-link navbar-brand" href="#row1">Home<span class="sr-only">(current)</span></a>
                               </li>
                               <li class="nav-item">
-                                  <a class=" navbar-brand" href="#">About Us</a>
+                                  <a class=" navbar-brand" href="#row2">About Us</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="navbar-brand" href="#">Porfolio</a>
+                                  <a class="navbar-brand" href="#row3">Porfolio</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="navbar-brand" href="#">Bookings</a>
+                                  <a class="navbar-brand" href="#row7">Bookings</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="navbar-brand" href="#">Contact Us</a>
+                                  <a class="navbar-brand" href="#row7">Contact Us</a>
                               </li>
                           </ul>
                     </div>
-                  </div>
+                  
                   
                 
               </div>
               </nav>
-              
+
+              </div>
+            </div>-->
+
+           <div class="navbar-wrapper">
+                <div class="container-fluid">
+                      <nav class="navbar navbar-expand-lg navbar-dark " >
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="container"> 
+                                  <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+                                        <ul class="navbar-nav mr-auto w-100 justify-content-center">
+                                            <li class="nav-item active">
+                                                <a class=" navbar-brand" href="#row1">Home<span class="sr-only">(current)</span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class=" navbar-brand" href="#row2">About Us</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="navbar-brand" href="#row3">Porfolio</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="navbar-brand" href="#row7">Bookings</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="navbar-brand" href="#row7">Contact Us</a>
+                                            </li>
+                                        </ul>
+                                  </div>
+                            </div>
+                      </nav>
+                </div><!-- /container -->
+            </div><!-- /navbar wrapper -->
+
               
               
 
-
-             <div class="container" id="logo">
+            <div id="overlay-wrapper">
+   
+        <img  id="logo1" src="images/momentque.png" alt="">
+        <div class="container">
+        <div class="bordervector"></div>
+      </div>
+    </div>
+            <!--<div class="container row1logo" id="logo">
                   <img  id="logo1" src="images/momentque.png" alt="">
-             </div>
+                  <div class="bordervector"></div>
+             </div>-->
 
               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
@@ -79,15 +126,20 @@
                                 <img class="d-block w-100" src="images/gallery16-min.jpg" alt="Third slide">
                           </div>
                     </div>
+                    <div class="container indicator" >
                     <ol class="carousel-indicators" id="firstsleek">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                     </ol>
+                  </div>
               </div>
+
+
           </div>
-      </div>
+      
+    
 
 
 
@@ -95,32 +147,39 @@
 
 
 <!-- ROW SECOND....................................................-->
+<div class="container">
       <div class="row" id="row2">
             <div class="col-lg-7 col-md-12" id="imageoverlay">
-                  <div class="container" id="row2container">
-                        <img id="img12" class="img-responsive" src="images/romantic-wedding-photography-best-photos-5-min.jpg" alt="">
-                        <div class="container">
-                              <div class="border1">
-                              </div>
-                        </div>
-                  </div>
-                  <div class="img-responsive">
-                        <img  id="img22" src="images/pexels-photo-306066-min.jpg" alt="">
-                  </div>
-                  <div class="img-responsive">
-                        <img id="img32" src="images/tungsten-vs-titanium-wedding-bands-wood-mens-wedding-bands-cheap-tungsten-wedding-bands-best-mens-wedding-bands-min.jpg" alt="">
-                  </div>
+                 <img id="img12" class="img-responsive" src="images/romantic-wedding-photography-best-photos-5-min.jpg" alt="">
+            <div class="img-responsive">
+                  <img  id="img22" src="images/pexels-photo-306066-min.jpg" alt="">
             </div>
-            <div class="col-lg-5 col-md-12" id="about">
-                  <div class="container">
+            <div class="img-responsive">
+                  <img id="img32" src="images/tungsten-vs-titanium-wedding-bands-wood-mens-wedding-bands-cheap-tungsten-wedding-bands-best-mens-wedding-bands-min.jpg" alt="">
+            </div>
+            </div>
+          
+           
+           <div class="col-lg-5 col-md-12" id="about">
+                    <div class="container justify-content-center">
                         <p class=" heading" id="head1">About Us</p>
                         <hr class="small" />
                         <p class="details">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
                         </p>
                   </div>
-            </div>
-      </div>
+                </div>
+            
+          
+          
+</div>
+</div>
+
+
+
+
+
+
 
 <!-- ROW THIRD....................................................-->
       <div class="row" id="row3">
@@ -135,45 +194,81 @@
 <!--ROW FOURTH.........................................................-->
       <div class="container" id="imagegallery">
             <div class="row" id="row4">
-                  <div class="col-lg-4 col-md-4 padding-0 padding-1">
-                        <div class="border2">
-                        </div>
-                              <img class="img-fluid" src="images/love-groom-bride.jpg" style="width:100% ;height:588px; " alt="">
+                
+                  <div class="col-lg-4 col-md-4 padding-3 img1 ">
+                      
+                       <img class="img-fluid" id="img41" src="images/love-groom-bride.jpg"  alt="">
+                           <div class="overlay">
+                                <div class="text">Hello World</div>
+                            </div>
+                   
                   </div>
-              <div class="col-lg-4 col-md-4 padding-0 ">
+
+
+               <div class="col-lg-4 col-md-4   ">
                   <div class="row">
-                        <div class="col-lg-12 padding-1">
-                              <img class="img-fluid" src="images/fadd153d-6b07-4716-843e-6f558fb8041b_rs_768.jpg" style="width:100%; height:196px;" alt="">
+                        <div class="col-lg-12 img2 ">
+                              <img class="img-fluid" id="img42" src="images/fadd153d-6b07-4716-843e-6f558fb8041b_rs_768.jpg"  alt="">
+                               <div class="overlay">
+                                <div class="text">Hello World</div>
+                            </div>
+                        
                         </div>
                   </div>
+
                   <div class="row">
-                        <div class="col-lg-12" id="quote1">
+                        <div class="col-lg-12" id="quote1" >
+                       
+                            
+                          
                               <p class="imagequote img-fluid"> We capture Moments</p>
+                            
                         </div> 
                   </div>
+
                   <div class="row">
-                        <div class="col-lg-12 ">
-                              <img class="img-fluid" src="images/pexels-photo-313707-min.jpg" style="width:100%;height:193px;" alt="">
-                        </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-md-4 padding-0 ">
-                  <div class="row">
-                        <div class="col-md-12 padding-1 ">
-                              <img class="img-fluid" src="images/home2-min.jpg" style="width:100%;height: 196px;" alt="">
-                        </div>
-                  </div>
-                  <div class="row">
-                        <div class="col-md-12 padding-1">
-                              <img class="img-fluid" src="images/57d0339efa58856045338c385278efb1--bride--groom-weeding-picture-ideas.jpg" style="width:100%;height:387px;" alt="">
-                        </div>
+                        <div class="col-lg-12 img3">
+                              
+                              <img class="img-fluid" id="img43" src="images/pexels-photo-313707-min.jpg"  alt="">
+                               <div class="overlay">
+                                <div class="text">Hello World</div>
+                            </div>
+                       
                   </div>
               </div>
             </div>
+
+
+              <div class="col-lg-4 col-md-4 ">
+                  <div class="row">
+                        <div class="col-md-12 img4">
+                            
+                              <img class="img-fluid" id="img44" src="images/home2-min.jpg"  alt="">
+                               <div class="overlay">
+                                <div class="text">Hello World</div>
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class="row">
+                        <div class="col-md-12 padding-1 img5">
+                             
+                              <img class="img-fluid" id="img45" src="images/57d0339efa58856045338c385278efb1--bride--groom-weeding-picture-ideas.jpg"  alt="">
+                               <div class="overlay">
+                                <div class="text">Hello World</div>
+                            </div>
+                      
+                  </div>
+              </div>
+              </div> 
+
+            
+            
       </div>
+    </div>
 
 <!-- ROW FIFTH....................................................-->
-      <div class="row" id="row4">
+      <div class="row" id="row5">
             <div class="col-lg-12">
                   <div class="container">
                         <p class=" heading" id="head3">Testimonials</p>
@@ -182,8 +277,11 @@
             </div>
       </div>
 <!-- ROW sixth....................................................-->
-      <div class="row" id="row6" style='background-image: url("images/pexels-photo-613056-min.jpg"); background-size:100% 100%'>
+      <div class="row" id="row6" >
+ <div class="container">
+  <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6">
+             
                   <div class="text1row6">
                         <p >What they say.</p>
                   </div>
@@ -193,8 +291,10 @@
                   <div class="logorow6">
                         <img class="logorow6 img-fluid" src="images/il_340x270.1344205085_byxl.jpg" alt="">
                   </div>
-                        <img class="ellipse" src="images/Ellipse1.png" alt="">
+                        <img class="ellipse text-center" src="images/Ellipse1.png" alt="">
                   </div>
+              
+
               <div class="col-lg-8 col-md-6 col-sm-6 ">
                         <div class="bar d-none d-lg-block">
                               <img src="images/Shape1.png" alt="">
@@ -274,32 +374,44 @@
                             <li data-target="#mySlider" data-slide-to="0" class="active"></li>
                             <li data-target="#mySlider" data-slide-to="1"></li>
                             <li data-target="#mySlider" data-slide-to="2"></li>
-                            <li data-target="#mySlider" data-slide-to="3"></li>
+                            
                         </ol>
                   </div>
-                  </div>
+                  
+                </div>
               </div>
-      </div>
+            </div>
+      
+    </div>
+  </div>
+
+
 
 <!-- ROW seventh....................................................-->
+
       <div class="row" id="row7" >
-            <div class="container-fluid opaque">
+      
+
+           <div class="container-fluid opaque">
             </div>
+            <div class="container">
             <div class="row">
+
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12  no-gutters">
                   <div class="container">
                         <img class="logo3" src="images/momentque.png" alt="">
                   </div>
             </div>
 
-            <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12 no-gutters " id="row71">
+            <div class="col-lg-4 col-md-7 col-sm-12 col-xs-12 " id="row71">
+              
                   <p class="text1row7">For event bookings</p>
                   <div class="row">
                       <div class="col-md-3 col-sm-2 col-xs-2">
                           <p class="text1row71">Address:</p>
                       </div>
                       <div class="col-md-9 col-sm-10 col-xs-2">
-                            <p class="text2row71">Micheal R. Poterfield 508 Virginia Street Chicago, IL60653</p>
+                            <p class="text2row71 justify-content-center">Micheal R. Poterfield 508 Virginia Street Chicago, IL60653</p>
                       </div>
                   </div>
                   <div class="row">
@@ -335,24 +447,26 @@
                         <div class="col-md-12 social">
                               <i class="fa fa-facebook circle black"></i>
                               <i class="fa fa-twitter circle"></i>
-                              <i class="fa fa-pinterest circle"></i>
+                              <i class="fa fa-pinterest-p circle"></i>
                               <i class="fa fa-instagram circle"></i>
                               <i class="fa fa-google circle"></i>
                         </div>
                   </div>
-            </div>
+            
+          </div>
 
-            <div class="col-lg-4 col-md-7">
+            <div class="col-lg-4 col-md-5">
+              
                   <p class="text1row7">Contact Us/Feedback</p>
                       <form>
-                            <div class="form-group">
+                            <div class="form-group text-center">
                                   <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your subject">
                                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
                                   <textarea class="form-control" id="exampleTextarea" rows="5" placeholder="Enter your message/Share your feedback"></textarea>
-                                  <button type="submit" class="btn btn-danger"><i class="fa fa-send fa-rotate-45"  data-fa-transform="rotate--180"></i> <span>Submit </span> </button>
+                                  <button type="submit" class="btn btn-danger">submit</button>
                             </div>
                       </form>
-            </div>
+            
             </div>
             <div class="row" id="row8">
                   <div class="col-lg-12">
@@ -363,8 +477,8 @@
             </div>
             
       </div>
-
-<!--ROW EIGTH ..........................................................-->
+    </div>
+  </div>
      
   </div>
 
@@ -395,7 +509,10 @@
 
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="javascripts/carousel-profile.js" type="text/javascript" charset="utf-8" async defer></script>

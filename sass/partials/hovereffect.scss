@@ -1,0 +1,76 @@
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.img1:hover 
+{
+  #img41{
+    opacity: 0.7;
+  }
+.overlay {
+  height: 35%;
+    
+}
+}
+
+.img2:hover 
+{
+  #img42{
+    opacity: 0.7;
+  }
+.overlay {
+  height: 35%;
+  
+}
+}
+.img3:hover 
+{
+  #img43{
+    opacity: 0.7;
+  }
+.overlay {
+  height: 35%;
+}
+}
+
+.img4:hover 
+{
+  #img44{
+    opacity: 0.7;
+  }
+.overlay {
+  height: 35%;
+}
+}
+
+.img5:hover 
+{
+  #img45{
+    opacity: 0.7;
+  }
+.overlay {
+  height: 35%;
+}
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  border: 2px solid black;
+  background-color: white;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}

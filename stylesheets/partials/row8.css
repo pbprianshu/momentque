@@ -17,76 +17,87 @@
 .row#row7 {
   position: relative;
   z-index: 1;
-  background-image: url("../images/pexels-photo-265728-min.jpg");
-  background-size: 100% 100%;
+  background: url("../images/pexels-photo-265728-min.jpg") no-repeat;
+  background-size: cover;
   color: white;
 }
 
 /* line 22, ../../sass/partials/row8.scss */
 .logo3 {
-  height: 222px;
-  width: 60%;
-  margin-left: 35%;
-  margin-top: 32%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: auto;
+  padding-top: 40%;
+  margin-bottom: auto;
   text-align: center;
 }
 
-/* line 29, ../../sass/partials/row8.scss */
+/* line 33, ../../sass/partials/row8.scss */
 .text1row7 {
   padding-top: 35px;
-  font-size: 48px;
-  /* Approximation due to font substitution */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 45px;
   line-height: 72px;
-  /* Approximation due to font substitution */
   font-family: 'Great Vibes',cursive;
   text-align: center;
 }
 
-/* line 37, ../../sass/partials/row8.scss */
+/* line 44, ../../sass/partials/row8.scss */
 .text1row71 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   font-size: 24px;
-  /* Approximation due to font substitution */
   font-weight: 400;
   line-height: 30px;
-  /* Approximation due to font substitution */
   text-align: left;
   font-family: 'Great Vibes',cursive;
   margin-left: 10px;
 }
 
-/* line 47, ../../sass/partials/row8.scss */
+/* line 57, ../../sass/partials/row8.scss */
 .text1row72 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   font-size: 48px;
-  /* Approximation due to font substitution */
   font-weight: 400;
   line-height: 72px;
-  /* Approximation due to font substitution */
   font-family: 'Great Vibes',cursive;
   text-align: center;
-  margin-right: 17%;
 }
 
-/* line 55, ../../sass/partials/row8.scss */
+/* line 68, ../../sass/partials/row8.scss */
 .text2row71 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   font-size: 24px;
-  /* Approximation due to font substitution */
   font-weight: 400;
   line-height: 30px;
-  /* Approximation due to font substitution */
   text-align: left;
   font-family: 'Great Vibes',cursive;
   margin-left: 10px;
 }
 
-/* line 63, ../../sass/partials/row8.scss */
+/* line 79, ../../sass/partials/row8.scss */
 .circle {
   border-radius: 50%;
-  font-size: 190%;
+  font-size: 150%;
   margin-top: -1em;
   text-align: center;
 }
 
-/* line 71, ../../sass/partials/row8.scss */
+/* line 85, ../../sass/partials/row8.scss */
+.social {
+  text-align: center;
+}
+
+/* line 90, ../../sass/partials/row8.scss */
 .fa-twitter {
   background: white;
   color: black;
@@ -94,38 +105,38 @@
   margin-left: 5%;
 }
 
-/* line 77, ../../sass/partials/row8.scss */
+/* line 96, ../../sass/partials/row8.scss */
 .fa-google {
   color: black;
   background: white;
-  padding: 0.23em 0.26em;
+  padding: 0.26em 0.43em;
   margin-left: 5%;
 }
 
-/* line 83, ../../sass/partials/row8.scss */
-.fa-pinterest {
+/* line 102, ../../sass/partials/row8.scss */
+.fa-pinterest-p {
   color: black;
   background: white;
-  padding: 0.23em 0.26em;
+  padding: 0.27em 0.39em;
   margin-left: 5%;
 }
 
-/* line 89, ../../sass/partials/row8.scss */
+/* line 108, ../../sass/partials/row8.scss */
 .fa-facebook {
   background: white;
   color: black;
   padding: 0.23em 0.42em;
 }
 
-/* line 94, ../../sass/partials/row8.scss */
+/* line 113, ../../sass/partials/row8.scss */
 .fa-instagram {
   background: white;
   color: black;
-  padding: 0.23em 0.26em;
+  padding: 0.28em 0.36em;
   margin-left: 5%;
 }
 
-/* line 100, ../../sass/partials/row8.scss */
+/* line 119, ../../sass/partials/row8.scss */
 .fa-rotate-45 {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -134,7 +145,7 @@
   transform: rotate(60deg);
 }
 
-/* line 108, ../../sass/partials/row8.scss */
+/* line 127, ../../sass/partials/row8.scss */
 input {
   font-family: 'Great Vibes',cursive;
   border-radius: 4px;
@@ -150,7 +161,7 @@ input {
   margin-bottom: 13px;
 }
 
-/* line 120, ../../sass/partials/row8.scss */
+/* line 139, ../../sass/partials/row8.scss */
 textarea {
   font-family: 'Great Vibes',cursive;
   border-radius: 4px;
@@ -161,31 +172,30 @@ textarea {
   font-weight: 400;
   line-height: 72px;
   /* Approximation due to font substitution */
-  margin-bottom: 43px;
+  margin-bottom: 13px;
 }
 
-/* line 130, ../../sass/partials/row8.scss */
-button {
+/* line 149, ../../sass/partials/row8.scss */
+.btn-danger {
   float: right;
   font-family: 'Great Vibes',cursive;
   font-size: 24px;
   /* Approximation due to font substitution */
   font-weight: 400px;
-  line-height: 72px;
   /* Approximation due to font substitution */
-  width: 35%;
+  padding: 5px 20px;
 }
-/* line 137, ../../sass/partials/row8.scss */
-button i {
+/* line 156, ../../sass/partials/row8.scss */
+.btn-danger i {
   float: left;
   margin-right: 15px;
 }
-/* line 141, ../../sass/partials/row8.scss */
-button span {
+/* line 160, ../../sass/partials/row8.scss */
+.btn-danger span {
   float: left;
 }
 
-/* line 145, ../../sass/partials/row8.scss */
+/* line 164, ../../sass/partials/row8.scss */
 footer {
   font-family: 'Great Vibes',cursive;
   color: #ffffff;
@@ -197,8 +207,44 @@ footer {
   text-align: center;
 }
 
-/* line 153, ../../sass/partials/row8.scss */
+/* line 172, ../../sass/partials/row8.scss */
 .row#row8 {
   margin-top: 6%;
   width: 100%;
+}
+
+/*.text1row7{
+	
+	font-size: 2em;
+	
+	font-family: 'Great Vibes',cursive;
+	text-align: center;
+}
+
+.text1row71{
+	font-size: 2em;
+	
+	text-align: left;
+	font-family: 'Great Vibes',cursive;
+
+}
+
+
+.text1row72{
+	font-size: 2em;
+	
+	font-family: 'Great Vibes',cursive;
+	text-align: center;
+	margin-right: 17%;
+}
+.text2row71{
+	font-size: 2em;
+	
+	text-align: left;
+	font-family: 'Great Vibes',cursive;
+	
+ }*/
+/* line 208, ../../sass/partials/row8.scss */
+.container#footer {
+  position: relative;
 }

@@ -1,0 +1,197 @@
+/* line 1, ../../sass/partials/row6.scss */
+.row#row6 {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  /*padding-left: 7%;*/
+  padding-top: 2%;
+  padding-bottom: -100px;
+  margin-bottom: 100px;
+  background-image: url("../images/pexels-photo-613056-min.jpg");
+  background-size: cover;
+}
+
+/* line 14, ../../sass/partials/row6.scss */
+.ellipse {
+  width: 100%;
+  text-align: center;
+  height: 355px;
+  position: relative;
+  z-index: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* line 27, ../../sass/partials/row6.scss */
+.text1row6 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 15px;
+  width: 85;
+  margin-left: 5%;
+  font-family: Maratre;
+  color: #ff9797;
+  font-size: 48px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  line-height: 72px;
+}
+
+/* line 40, ../../sass/partials/row6.scss */
+.text2row6 {
+  position: absolute;
+  z-index: 2;
+  margin-top: 90px;
+  width: 65%;
+  margin-left: 5%;
+  font-family: 'Great Vibes', cursive;
+  color: #6c6c6c;
+  font-size: 24px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* line 53, ../../sass/partials/row6.scss */
+.logorow6 {
+  position: absolute;
+  z-index: 1;
+  height: 130px;
+  width: 150px;
+  margin-top: 100px;
+  margin-left: 15%;
+}
+
+/* line 61, ../../sass/partials/row6.scss */
+.carousel-indicators#second-sleek {
+  position: absolute;
+  bottom: 23em;
+  z-index: 15;
+  width: 60px;
+  list-style: none;
+  text-align: center;
+}
+
+/* line 69, ../../sass/partials/row6.scss */
+#profile {
+  width: 80px;
+  height: 80px;
+  border: 3px solid white;
+  margin-left: 30%;
+  margin-top: 10px;
+}
+
+/* line 76, ../../sass/partials/row6.scss */
+.card {
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding-right: 50px;
+  margin-top: 0px;
+  position: relative;
+  z-index: 0;
+}
+
+/* line 89, ../../sass/partials/row6.scss */
+.container#row6 {
+  margin: 0;
+}
+
+/* line 94, ../../sass/partials/row6.scss */
+.carousel-indicators#secondsleek li {
+  display: block;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  z-index: 0;
+  border-radius: 50%;
+  /*margin-bottom: 10px; */
+  border: 1px solid #ffffff;
+}
+
+/* line 106, ../../sass/partials/row6.scss */
+.container#testimonials {
+  border: 1px solid black;
+}
+
+/* line 109, ../../sass/partials/row6.scss */
+.bar {
+  position: absolute;
+  left: 47%;
+  top: 20%;
+  z-index: 2;
+}
+
+/* line 115, ../../sass/partials/row6.scss */
+.dot {
+  position: relative;
+  left: 46%;
+  top: 40%;
+  z-index: 3;
+}
+
+/* line 122, ../../sass/partials/row6.scss */
+.btn-danger:before {
+  content: "\f1d8     ";
+}
+
+/* line 135, ../../sass/partials/row6.scss */
+.padding-0 {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+/* line 141, ../../sass/partials/row6.scss */
+.padding-3 {
+  padding-bottom: 6px;
+}
+
+/* line 145, ../../sass/partials/row6.scss */
+.padding-1 {
+  padding-top: 6px;
+}
+
+/* line 148, ../../sass/partials/row6.scss */
+.border2 {
+  border: 2px solid grey;
+  position: absolute;
+  z-index: 1;
+  height: 575px;
+  width: 95%;
+  margin-left: 6.2px;
+  margin-top: 6px;
+}
+
+/* line 168, ../../sass/partials/row6.scss */
+.heading#head3::before {
+  border-bottom: 2px solid black;
+  position: absolute;
+  content: "";
+  width: 180px;
+  margin-top: 81px;
+}
+
+/* line 184, ../../sass/partials/row6.scss */
+.about-hidden {
+  top: 12em;
+}
+
+/* line 187, ../../sass/partials/row6.scss */
+.col-md-6#about-hidden {
+  top: -14em;
+  right: 0em;
+  left: 0em;
+}
+
+/* line 192, ../../sass/partials/row6.scss */
+.details-hidden {
+  font-family: "Great Vibes", cursive;
+  margin-left: 9em;
+  margin-right: 12em;
+  text-align: justify;
+}

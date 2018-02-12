@@ -14,30 +14,40 @@
 .row#row7{
 	position: relative;
 	z-index: 1;
-	background-image: url("../images/pexels-photo-265728-min.jpg");
-	background-size:100% 100%;
+	background: url("../images/pexels-photo-265728-min.jpg") no-repeat;
+	background-size: cover;
 	color: white;
 }
 
 .logo3{
-	height: 222px;
-	width: 60%;
-	margin-left: 35%;
-	margin-top: 32%;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+    margin-top: auto;
+    padding-top: 40%;
+    margin-bottom: auto;
+   
 	text-align: center;
 }
 .text1row7{
 	padding-top: 35px;
-	font-size: 48px;/* Approximation due to font substitution */
-	line-height: 72px;/* Approximation due to font substitution */
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-size: 45px;
+	line-height: 72px;
 	font-family: 'Great Vibes',cursive;
 	text-align: center;
 }
 
 .text1row71{
-	font-size: 24px;/* Approximation due to font substitution */
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-size: 24px;
 	font-weight: 400;
-	line-height: 30px;/* Approximation due to font substitution */
+	line-height: 30px;
 	text-align: left;
 	font-family: 'Great Vibes',cursive;
 	margin-left: 10px;
@@ -45,25 +55,34 @@
 
 
 .text1row72{
-	font-size: 48px;/* Approximation due to font substitution */
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-size: 48px;
 	font-weight: 400;
-	line-height: 72px;/* Approximation due to font substitution */
+	line-height: 72px;
 	font-family: 'Great Vibes',cursive;
 	text-align: center;
-	margin-right: 17%;
+   
 }
 .text2row71{
-	font-size: 24px;/* Approximation due to font substitution */
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-size: 24px;
 	font-weight: 400;
-	line-height: 30px;/* Approximation due to font substitution */
+	line-height: 30px;
 	text-align: left;
 	font-family: 'Great Vibes',cursive;
 	margin-left: 10px;
  }
 .circle{
 	border-radius: 50%;
-	font-size: 190%;
+	font-size: 150%;
 	margin-top: -1em;
+	text-align: center;
+}
+.social{
 	text-align: center;
 }
 
@@ -77,13 +96,13 @@
 .fa-google{
 	color: black;
   	background: white;
-  	padding: 0.23em 0.26em;
+  	padding: 0.26em 0.43em;
   	margin-left:  5%;
 }  
-.fa-pinterest{
+.fa-pinterest-p{
 	color: black;
 	background: white;
-	padding: 0.23em 0.26em;
+	padding: 0.27em 0.39em;
 	margin-left:  5%;
 }
 .fa-facebook{
@@ -94,7 +113,7 @@
 .fa-instagram{
 	background: white;
 	color: black;
-  	padding: 0.23em 0.26em;
+  	padding: 0.28em 0.36em;
   	margin-left:  5%;
 }
 .fa-rotate-45 {
@@ -125,15 +144,15 @@ textarea{
 	font-size: 24px;/* Approximation due to font substitution */
 	font-weight: 400;
 	line-height: 72px;/* Approximation due to font substitution */
-	margin-bottom: 43px;
+	margin-bottom: 13px;
 }
-button{
+.btn-danger{
 	float: right;
 	font-family: 'Great Vibes',cursive;
 	font-size: 24px;/* Approximation due to font substitution */
 	font-weight: 400px;
-	line-height: 72px;/* Approximation due to font substitution */
-	width: 35%;
+	/* Approximation due to font substitution */
+	padding: 5px 20px;
    	i{
    		float: left;
    		margin-right: 15px;
@@ -154,3 +173,38 @@ footer{
 	margin-top: 6%;
 	width: 100%;
 }
+
+/*.text1row7{
+	
+	font-size: 2em;
+	
+	font-family: 'Great Vibes',cursive;
+	text-align: center;
+}
+
+.text1row71{
+	font-size: 2em;
+	
+	text-align: left;
+	font-family: 'Great Vibes',cursive;
+
+}
+
+
+.text1row72{
+	font-size: 2em;
+	
+	font-family: 'Great Vibes',cursive;
+	text-align: center;
+	margin-right: 17%;
+}
+.text2row71{
+	font-size: 2em;
+	
+	text-align: left;
+	font-family: 'Great Vibes',cursive;
+	
+ }*/
+ .container#footer{
+ 	position: relative;
+ }

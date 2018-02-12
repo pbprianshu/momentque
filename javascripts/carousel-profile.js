@@ -1,8 +1,15 @@
+
+$(window).on('load', function(){
+  $('.parent').fadeOut(3000);
+  
+});
+
+   
 $('#mySlider').on('slide.bs.carousel', function (e) {
 
     
     var $e = $(e.relatedTarget);
-    
+    ;
     
     $('.carousel#mySlider.active').addClass('sliding');
 
@@ -25,10 +32,22 @@ $('#mySlider').on('slide.bs.carousel', function (e) {
    
     $('.carousel#mySlider.active').removeClass('active');
 
-      /*$nextnext.addClass('active-next');*/
+      
     
     setTimeout(function(){
         $('.carousel#mySlider.active, .carousel#mySlider.active-next').removeClass('sliding');
     },1000);
 });
+
+    $('.navbar-nav li').on("click", function() {
+      $('.navbar-nav li').removeClass("active");
+      $(this).addClass("active");
+      
+    });
+
+    
+    
+
+
+
 
