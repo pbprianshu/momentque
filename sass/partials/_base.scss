@@ -47,6 +47,8 @@
     margin-left: 0;
     overflow-x: hidden;
     padding-top: 0px;*/
+    padding-left: 0;
+    padding-right: 0;
 }
 .carousel-item img {
 	width: 100%;
@@ -92,6 +94,7 @@
 .navbar-dark{
 	text-decoration: none;
 
+
 }
 .navbar .navbar-brand{
 	
@@ -134,7 +137,6 @@
 
 
 
-
 #logo{
 	position: absolute;
 	z-index: 20;
@@ -147,7 +149,7 @@
 #overlay-wrapper:after{
 	position: absolute;
 	content: " ";
-	background: url("../images/Vector.png") no-repeat;
+	background: url("../images/Vector_min.png") no-repeat;
 	background-size: 30px 30px;
     width: 100px;
     height: 100px;

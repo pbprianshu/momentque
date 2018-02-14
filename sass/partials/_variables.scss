@@ -2,3 +2,30 @@ $DarkGrey: 	#999999;
 $size: 100px;
 $duration: 1.5s;
 $timing: ease;
+$bg-color: #583e7e;
+
+// TEXT COLOR
+$text-color: #fff;
+
+// SIDEBAR LINK COLOR VARIABLES
+$side-color-1: #1a1a1a;
+$side-color-4: $bg-color;
+$side-color-3: darken($side-color-4, 5%);
+$side-color-2: darken($side-color-3, 5%);
+
+
+$side-color-5: lighten($side-color-4, 5%);
+$side-color-6: lighten($side-color-5, 5%);
+$side-color-7: lighten($side-color-6, 5%);
+$side-color-8: lighten($side-color-7, 5%);
+$side-color-9: lighten($side-color-8, 5%);
+
+$hamburger-color-closed: fadeout($text-color, 30);
+$hamburger-color-open: $text-color;
+
+$width1: 220px;
+$width2: 100px;
+$full-width: 100%;
+
+// HEIGHT VARIABLES
+$full-height: 100%;

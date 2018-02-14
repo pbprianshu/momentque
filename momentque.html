@@ -13,11 +13,11 @@
 </head>
 
 <body>
-  <div class="parent">
+  <!--<div class="parent">
   <div class="hearts">
     <span>&hearts;</span>
   </div>
-</div>
+</div>-->
       
   <div class="container-fluid" id="MainContainer" >  
 <!-- ROW FIRST....................................................-->
@@ -62,13 +62,22 @@
 
               </div>
             </div>-->
-
+          
            <div class="navbar-wrapper">
                 <div class="container-fluid">
+                  
                       <nav class="navbar navbar-expand-lg navbar-dark " >
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
+                            <button class="d-none
+ navbar-toggler hamburger is-closed animated fadeInLeft" type="button" data-toggle="menu" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                                    <!--<span class="navbar-toggler-icon"></span>-->
+                                     <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
                             </button>
+
+                           
+           
+        
                             <div class="container"> 
                                   <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
                                         <ul class="navbar-nav mr-auto w-100 justify-content-center">
@@ -89,6 +98,21 @@
                                             </li>
                                         </ul>
                                   </div>
+
+                <div id="cd-nav">
+                   <a href="#0" class="d-lg-none cd-nav-trigger">Menu<span></span></a>
+
+                <nav class="d-lg-none" id="cd-main-nav">
+                                          <ul class="sidebar-nav">
+                                              <li class="first"><a class=" navbar-brand" href="#row1">Home</a></li>
+                                              <li><a class=" navbar-brand" href="#row2">About Us</a></li>
+                                              <li><a class=" navbar-brand" href="#row3">Portfolio</a></li>
+                                              <li><a class=" navbar-brand" href="#row7">Bookings</a></li>
+                                              <li><a class=" navbar-brand" href="#row7">Contact Us</a></li>
+                                          </ul>
+                                      </nav>
+                                  </div>
+
                             </div>
                       </nav>
                 </div><!-- /container -->
@@ -99,7 +123,7 @@
 
             <div id="overlay-wrapper">
    
-        <img  id="logo1" src="images/momentque.png" alt="">
+        <img  id="logo1" src="images/momentque_optimize.png" alt="">
         <div class="container">
         <div class="bordervector"></div>
       </div>
@@ -161,7 +185,7 @@
           
            
            <div class="col-lg-5 col-md-12" id="about">
-                    <div class="container justify-content-center">
+                    <div class="justify-content-center">
                         <p class=" heading" id="head1">About Us</p>
                         <hr class="small" />
                         <p class="details">
@@ -193,31 +217,40 @@
 
 <!--ROW FOURTH.........................................................-->
       <div class="container" id="imagegallery">
+         <div class="row">
+                        <div class="col-md-12 col-md-offset-12 d-none d-md-block d-lg-none " id="quote1" >
+                       
+                            
+                          
+                              <p class="imagequote img-fluid"> We capture Moments</p>
+                            
+                        </div> 
+                  </div>
             <div class="row" id="row4">
                 
                   <div class="col-lg-4 col-md-4 padding-3 img1 ">
-                      
-                       <img class="img-fluid" id="img41" src="images/love-groom-bride.jpg"  alt="">
-                           <div class="overlay">
+                       <img class="img-fluid" id="img41" src="images/love-groom-bride_min.jpg"  alt="">
+                           <!--<div class="overlay">
                                 <div class="text">Hello World</div>
-                            </div>
+                            </div>-->
+                            
                    
                   </div>
 
 
-               <div class="col-lg-4 col-md-4   ">
+               <div class="col-lg-4 col-md-4">
                   <div class="row">
                         <div class="col-lg-12 img2 ">
                               <img class="img-fluid" id="img42" src="images/fadd153d-6b07-4716-843e-6f558fb8041b_rs_768.jpg"  alt="">
-                               <div class="overlay">
+                              <!-- <div class="overlay">
                                 <div class="text">Hello World</div>
-                            </div>
+                            </div>-->
                         
                         </div>
                   </div>
 
                   <div class="row">
-                        <div class="col-lg-12" id="quote1" >
+                        <div class="col-lg-12 d-block d-md-none d-lg-block" id="quote1" >
                        
                             
                           
@@ -230,9 +263,9 @@
                         <div class="col-lg-12 img3">
                               
                               <img class="img-fluid" id="img43" src="images/pexels-photo-313707-min.jpg"  alt="">
-                               <div class="overlay">
+                              <!-- <div class="overlay">
                                 <div class="text">Hello World</div>
-                            </div>
+                            </div>-->
                        
                   </div>
               </div>
@@ -244,9 +277,9 @@
                         <div class="col-md-12 img4">
                             
                               <img class="img-fluid" id="img44" src="images/home2-min.jpg"  alt="">
-                               <div class="overlay">
+                               <!--<div class="overlay">
                                 <div class="text">Hello World</div>
-                            </div>
+                            </div>-->
                         </div>
                   </div>
 
@@ -254,9 +287,9 @@
                         <div class="col-md-12 padding-1 img5">
                              
                               <img class="img-fluid" id="img45" src="images/57d0339efa58856045338c385278efb1--bride--groom-weeding-picture-ideas.jpg"  alt="">
-                               <div class="overlay">
+                               <!--<div class="overlay">
                                 <div class="text">Hello World</div>
-                            </div>
+                            </div>-->
                       
                   </div>
               </div>
@@ -276,12 +309,22 @@
                   </div>
             </div>
       </div>
+
+
+
+
 <!-- ROW sixth....................................................-->
-      <div class="row" id="row6" >
- <div class="container">
-  <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-             
+     
+          <div class="container-fluid">
+
+               <div class="row" id="row6">
+
+                     <div class="container">
+
+                      <div class="row">
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                
                   <div class="text1row6">
                         <p >What they say.</p>
                   </div>
@@ -291,80 +334,83 @@
                   <div class="logorow6">
                         <img class="logorow6 img-fluid" src="images/il_340x270.1344205085_byxl.jpg" alt="">
                   </div>
-                        <img class="ellipse text-center" src="images/Ellipse1.png" alt="">
+                        <img class="ellipse" src="images/Ellipse1.png" alt="">
                   </div>
-              
+             
 
               <div class="col-lg-8 col-md-6 col-sm-6 ">
+
                         <div class="bar d-none d-lg-block">
-                              <img src="images/Shape1.png" alt="">
+                              <img src="images/Shape1_min.png" alt="">
                         </div>
+
                   <div class="dot d-none d-lg-block">
-                        <img src="images/Ellipse2.png" alt="">
+                        <img src="images/Ellipse2_min.png" alt="">
                   </div>
+
                   <div class="row carousel mx-auto" data-ride="carousel" id="mySlider" data-interval="3500">
-                        <div class="col-lg-6 col-md-10 col-sm-12 carousel-item active" id="secondsleek">
-                              <div class="card">
-                                    <div class="card-block">
+                        <div class="col-lg-6 col-md-12 col-sm-12 carousel-item active" id="secondsleek">
+                              <div class="cards">
+                                    <div class="card-blocks">
                                           <p class="card-text">Wedding is one of the most memorable moments in girls life. Momentque made it more special to me. They have an outstanding team and they don't treat you as clients, they treat you as family. Thank you, for making it so memorable. </p>
                                     </div>
-                                    <img class="card-img-top rounded-circle" id="profile" src="images/gallery16-min.jpg" alt="Card image cap">
-                                    <div class="card-block">
+                                    <img class=" rounded-circle" id="profile" src="images/gallery16-min.jpg" alt="Card image cap">
+                                    <div class="card-blocks">
                                           <p class="card-text text-center">First</p>
                                     </div>
                               </div>
                         </div>
-                  <div class="col-lg-6 col-md-10 col-sm-6 col-sm-12 carousel-item active-next" id="secondsleek">
-                        <div class="card">
-                              <div class="card-block">
+                  <div class="col-lg-6 col-md-12 col-sm-12 carousel-item active-next" id="secondsleek">
+                        <div class="cards">
+                              <div class="card-blocks">
                                     <p class="card-text">Wedding is one of the most memorable moments in girls life. Momentque made it more special to me. They have an outstanding team and they don't treat you as clients, they treat you as family. Thank you, for making it so memorable. </p>
                               </div>
-                              <img class="card-img-top img-circle rounded-circle center-block text-center" id="profile" src="images/gallery16-min.jpg" alt="Card image cap">
-                              <div class="card-block">
+                              <img class="rounded-circle" id="profile" src="images/gallery16-min.jpg" alt="Card image cap">
+                              <div class="card-blocks">
                                    <p class="card-text text-center">second</p>
                               </div>
                         </div>
                   </div>
-                  <div class="col-lg-6 col-md-10 col-sm-6 col-sm-12 carousel-item" id="secondsleek">
-                        <div class="card">
-                              <div class="card-block">
+                  <div class="col-lg-6 col-md-12 col-sm-12 carousel-item" id="secondsleek">
+                        <div class=" cards">
+                              <div class="card-blocks">
                                     <p class="card-text">Wedding is one of the most memorable moments in girls life. Momentque made it more special to me. They have an outstanding team and they don't treat you as clients, they treat you as family. Thank you, for making it so memorable. </p>
                               </div>
-                              <img class="card-img-top img-circle rounded-circle center-block" id="profile" src="images/gallery16-min.jpg" alt="Card image cap">
-                              <div class="card-block">
+                              <img class="rounded-circle" id="profile" src="images/gallery16-min.jpg" alt="Card image cap">
+                              <div class="card-blocks">
                                     <p class="card-text text-center">third</p>
                               </div>
                         </div>
                   </div>
-                  <div class="col-lg-6 col-md-10 col-sm-6 col-sm-12 carousel-item" id="secondsleek">
-                        <div class="card">
-                              <div class="card-block">
+                  <div class="col-lg-6 col-md-12 col-sm-12 carousel-item" id="secondsleek">
+                        <div class="cards">
+                              <div class="card-blocks">
                                     <p class="card-text">Wedding is one of the most memorable moments in girls life. Momentque made it more special to me. They have an outstanding team and they don't treat you as clients, they treat you as family. Thank you, for making it so memorable. </p>
                               </div>
-                              <img class="card-img-top img-circle rounded-circle center-block" id="profile" src="images/gallery16-min.jpg" alt="Card image cap">
-                                   <div class="card-block">
+                              <img class="rounded-circle" id="profile" src="images/gallery16-min.jpg" alt="Card image cap">
+                                   <div class="card-blocks">
                                         <p class="card-text text-center">fourth</p>
                                     </div>
                               </div>
                   </div>
-                  <div class="col-lg-6 col-md-10 col-sm-6 col-sm-12 carousel-item" id="secondsleek">
-                        <div class="card">
-                              <div class="card-block">
+                  <div class="col-lg-6 col-md-12 col-sm-12 carousel-item" id="secondsleek">
+                        <div class="cards">
+                              <div class="card-blocks">
                                     <p class="card-text">Wedding is one of the most memorable moments in girls life. Momentque made it more special to me. They have an outstanding team and they don't treat you as clients, they treat you as family. Thank you, for making it so memorable. </p>
                               </div>
-                              <img class="card-img-top img-circle rounded-circle center-block" id="profile" src="images/gallery16-min.jpg" alt="Card image cap">
-                              <div class="card-block">
+                              <img class="rounded-circle" id="profile" src="images/gallery16-min.jpg" alt="Card image cap">
+                              <div class="card-blocks">
                                     <p class="card-text text-center">fifth</p>
                               </div>
                         </div>
                   </div>
-                <div class="col-lg-6 col-md-12 col-sm-6 col-sm-12 carousel-item" id="secondsleek">
-                        <div class="card">
-                              <div class="card-block">
+                <div class="col-lg-6 col-md-12 col-sm-12 carousel-item" id="secondsleek">
+                        <div class="cards">
+                              <div class="card-blocks">
                                     <p class="card-text">Wedding is one of the most memorable moments in girls life. Momentque made it more special to me. They have an outstanding team and they don't treat you as clients, they treat you as family. Thank you, for making it so memorable. </p>
                               </div>
-                              <img class="card-img-top img-circle rounded-circle center-block" id="profile" src="images/gallery16-min.jpg" alt="Card image cap">
-                              <div class="card-block">
+                              <img class="rounded-circle" id="profile" src="images/gallery16-min.jpg" alt="Card image cap">
+                              <div class="card-blocks">
                                     <p class="card-text text-center">sixth</p>
                               </div>
                         </div>
@@ -384,7 +430,7 @@
       
     </div>
   </div>
-
+ </div>
 
 
 <!-- ROW seventh....................................................-->
@@ -395,69 +441,62 @@
            <div class="container-fluid opaque">
             </div>
             <div class="container">
-            <div class="row">
+            <div class="row row71">
 
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12  no-gutters">
+            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                   <div class="container">
-                        <img class="logo3" src="images/momentque.png" alt="">
+                        <img class="logo3" src="images/momentque_optimize.png" alt="">
                   </div>
             </div>
+            
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 " id="row71">
+                               <p class="text1row7">For event bookings</p>
 
-            <div class="col-lg-4 col-md-7 col-sm-12 col-xs-12 " id="row71">
-              
-                  <p class="text1row7">For event bookings</p>
-                  <div class="row">
-                      <div class="col-md-3 col-sm-2 col-xs-2">
-                          <p class="text1row71">Address:</p>
-                      </div>
-                      <div class="col-md-9 col-sm-10 col-xs-2">
-                            <p class="text2row71 justify-content-center">Micheal R. Poterfield 508 Virginia Street Chicago, IL60653</p>
-                      </div>
+                  
+                  <div class="ro">
+                    
+                      <div class="label1 text1row71">Address:</div><div class="text2row71  label2"> Micheal R. Poterfield 508 Virginia Street Chicago, IL60653</div>
+                    
                   </div>
-                  <div class="row">
-                      <div class="col-md-3 col-sm-2 col-xs-2">
-                            <p class="text1row71">Phone:</p>
-                      </div>
-                      <div class="col-md-9 col-sm-10 col-xs-2">
-                            <p class="text2row71">346-523-454/ 345-542-554</p>
-                      </div>
+                  <div class="ro">
+                    
+                      <div class="label1 text1row71">Phone:</div><div class="text2row71 label2">346-523-454/ 345-542-554</div>
+                    
                   </div>
-                  <div class="row">
-                        <div class="col-md-3 col-sm-2 col-xs-2">
-                              <p class="text1row71">Email:</p>
-                        </div>
-                        <div class="col-md-9 col-sm-10 col-xs-2">
-                              <p class="text2row71">bookings@momentque.com</p>
-                        </div>
+                  <div class="ro">
+                    
+                      <div class="label1 text1row71">Email:</div><div class="text2row71 label2">bookings@momentque.com</div>
+                    
                   </div>
-                  <div class="row">
-                        <div class="col-md-3 col-sm-2 col-xs-2">
-                              <p class="text1row71">Website:</p>
-                        </div>
-                        <div class="col-md-9 col-sm-10 col-xs-2">
-                              <p class="text2row71">www.momentque.com</p>
-                        </div>
+                   <div class="ro">
+                    
+                      <div class="label1 text1row71">Website:</div><div class="text2row71 label2">www.momentque.com</div>
+                    
                   </div>
-                  <div class="row">
-                        <div class=" col-lg-12 col-md-12">
-                              <p class="text1row72">Follow us</p>
-                        </div>
+                  <div class="ro">
+                       <p class="text1row72">Follow us</p>
+                        
                   </div>
-                  <div class="row">
-                        <div class="col-md-12 social">
+                  <div class="row social">
+                       <div class="col-md-12 col-xs-12 social">
                               <i class="fa fa-facebook circle black"></i>
                               <i class="fa fa-twitter circle"></i>
                               <i class="fa fa-pinterest-p circle"></i>
                               <i class="fa fa-instagram circle"></i>
                               <i class="fa fa-google circle"></i>
-                        </div>
+                       </div> 
                   </div>
-            
+               
+
+                  
+                  
+                  
+          
           </div>
 
-            <div class="col-lg-4 col-md-5">
-              
-                  <p class="text1row7">Contact Us/Feedback</p>
+            <div class="col-lg-5 col-md-6">
+              <div class="container-fluid">
+                  <p class="text2row7">Contact Us/Feedback</p>
                       <form>
                             <div class="form-group text-center">
                                   <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your subject">
@@ -466,19 +505,20 @@
                                   <button type="submit" class="btn btn-danger">submit</button>
                             </div>
                       </form>
-            
             </div>
-            <div class="row" id="row8">
-                  <div class="col-lg-12">
-                        <FOOTER>
+            </div>
+
+            
+                  
+            </div>
+            <div class="col-lg-12">
+                        <FOOTER  class="foot">
                         <p> Copyright &copy; 2017 by Momentque. All rights reserved.</p>
                         </FOOTER>
                   </div>
-            </div>
-            
       </div>
     </div>
-  </div>
+  
      
   </div>
 

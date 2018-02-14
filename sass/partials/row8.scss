@@ -20,12 +20,12 @@
 }
 
 .logo3{
-	width: 70%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
     margin-top: auto;
-    padding-top: 40%;
+    padding-top: 70%;
     margin-bottom: auto;
    
 	text-align: center;
@@ -35,19 +35,30 @@
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	font-size: 45px;
+	font-size: 38px;
+	line-height: 72px;
+	font-family: 'Great Vibes',cursive;
+	text-align: center;
+}
+.text2row7{
+	padding-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-size: 38px;
 	line-height: 72px;
 	font-family: 'Great Vibes',cursive;
 	text-align: center;
 }
 
+
 .text1row71{
-	margin-left: auto;
+	
 	margin-right: auto;
 	display: block;
 	font-size: 24px;
-	font-weight: 400;
-	line-height: 30px;
+	/*font-weight: 400;
+	line-height: 30px;*/
 	text-align: left;
 	font-family: 'Great Vibes',cursive;
 	margin-left: 10px;
@@ -58,7 +69,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	font-size: 48px;
+	font-size: 45px;
 	font-weight: 400;
 	line-height: 72px;
 	font-family: 'Great Vibes',cursive;
@@ -70,11 +81,11 @@
 	margin-right: auto;
 	display: block;
 	font-size: 24px;
-	font-weight: 400;
-	line-height: 30px;
+	/*font-weight: 400;
+	line-height: 30px;*/
 	text-align: left;
 	font-family: 'Great Vibes',cursive;
-	margin-left: 10px;
+	/*margin-left: 10px;*/
  }
 .circle{
 	border-radius: 50%;
@@ -169,7 +180,7 @@ footer{
 	line-height: 32px;/* Approximation due to font substitution */
 	text-align: center;
 }
-.row#row8{
+.foot{
 	margin-top: 6%;
 	width: 100%;
 }
@@ -208,3 +219,11 @@ footer{
  .container#footer{
  	position: relative;
  }
+ .label1{
+    width: 75px;
+    float: left;
+}
+.label2{
+    width: 69%;
+    float: left;
+}
