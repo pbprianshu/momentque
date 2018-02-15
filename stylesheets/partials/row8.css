@@ -13,7 +13,13 @@
   margin-left: -3%;
 }
 
-/* line 14, ../../sass/partials/row8.scss */
+/* line 13, ../../sass/partials/row8.scss */
+address {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* line 17, ../../sass/partials/row8.scss */
 .row#row7 {
   position: relative;
   z-index: 1;
@@ -22,7 +28,7 @@
   color: white;
 }
 
-/* line 22, ../../sass/partials/row8.scss */
+/* line 25, ../../sass/partials/row8.scss */
 .logo3 {
   width: 100%;
   margin-left: auto;
@@ -34,7 +40,7 @@
   text-align: center;
 }
 
-/* line 33, ../../sass/partials/row8.scss */
+/* line 36, ../../sass/partials/row8.scss */
 .text1row7 {
   padding-top: 35px;
   margin-left: auto;
@@ -46,7 +52,7 @@
   text-align: center;
 }
 
-/* line 43, ../../sass/partials/row8.scss */
+/* line 46, ../../sass/partials/row8.scss */
 .text2row7 {
   padding-top: 35px;
   margin-left: auto;
@@ -58,7 +64,7 @@
   text-align: center;
 }
 
-/* line 55, ../../sass/partials/row8.scss */
+/* line 58, ../../sass/partials/row8.scss */
 .text1row71 {
   margin-right: auto;
   display: block;
@@ -70,7 +76,7 @@
   margin-left: 10px;
 }
 
-/* line 68, ../../sass/partials/row8.scss */
+/* line 71, ../../sass/partials/row8.scss */
 .text1row72 {
   margin-left: auto;
   margin-right: auto;
@@ -79,10 +85,11 @@
   font-weight: 400;
   line-height: 72px;
   font-family: 'Great Vibes',cursive;
+  margin-top: 30px;
   text-align: center;
 }
 
-/* line 79, ../../sass/partials/row8.scss */
+/* line 83, ../../sass/partials/row8.scss */
 .text2row71 {
   margin-left: auto;
   margin-right: auto;
@@ -95,7 +102,7 @@
   /*margin-left: 10px;*/
 }
 
-/* line 90, ../../sass/partials/row8.scss */
+/* line 94, ../../sass/partials/row8.scss */
 .circle {
   border-radius: 50%;
   font-size: 150%;
@@ -103,12 +110,12 @@
   text-align: center;
 }
 
-/* line 96, ../../sass/partials/row8.scss */
+/* line 100, ../../sass/partials/row8.scss */
 .social {
   text-align: center;
 }
 
-/* line 101, ../../sass/partials/row8.scss */
+/* line 105, ../../sass/partials/row8.scss */
 .fa-twitter {
   background: white;
   color: black;
@@ -116,7 +123,7 @@
   margin-left: 5%;
 }
 
-/* line 107, ../../sass/partials/row8.scss */
+/* line 111, ../../sass/partials/row8.scss */
 .fa-google {
   color: black;
   background: white;
@@ -124,7 +131,7 @@
   margin-left: 5%;
 }
 
-/* line 113, ../../sass/partials/row8.scss */
+/* line 117, ../../sass/partials/row8.scss */
 .fa-pinterest-p {
   color: black;
   background: white;
@@ -132,14 +139,14 @@
   margin-left: 5%;
 }
 
-/* line 119, ../../sass/partials/row8.scss */
+/* line 123, ../../sass/partials/row8.scss */
 .fa-facebook {
   background: white;
   color: black;
   padding: 0.23em 0.42em;
 }
 
-/* line 124, ../../sass/partials/row8.scss */
+/* line 128, ../../sass/partials/row8.scss */
 .fa-instagram {
   background: white;
   color: black;
@@ -147,7 +154,7 @@
   margin-left: 5%;
 }
 
-/* line 130, ../../sass/partials/row8.scss */
+/* line 134, ../../sass/partials/row8.scss */
 .fa-rotate-45 {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -156,7 +163,7 @@
   transform: rotate(60deg);
 }
 
-/* line 138, ../../sass/partials/row8.scss */
+/* line 142, ../../sass/partials/row8.scss */
 input {
   font-family: 'Great Vibes',cursive;
   border-radius: 4px;
@@ -172,7 +179,7 @@ input {
   margin-bottom: 13px;
 }
 
-/* line 150, ../../sass/partials/row8.scss */
+/* line 154, ../../sass/partials/row8.scss */
 textarea {
   font-family: 'Great Vibes',cursive;
   border-radius: 4px;
@@ -186,7 +193,7 @@ textarea {
   margin-bottom: 13px;
 }
 
-/* line 160, ../../sass/partials/row8.scss */
+/* line 164, ../../sass/partials/row8.scss */
 .btn-danger {
   float: right;
   font-family: 'Great Vibes',cursive;
@@ -196,17 +203,24 @@ textarea {
   /* Approximation due to font substitution */
   padding: 5px 20px;
 }
-/* line 167, ../../sass/partials/row8.scss */
+/* line 171, ../../sass/partials/row8.scss */
 .btn-danger i {
   float: left;
   margin-right: 15px;
 }
-/* line 171, ../../sass/partials/row8.scss */
+/* line 175, ../../sass/partials/row8.scss */
 .btn-danger span {
   float: left;
 }
 
-/* line 175, ../../sass/partials/row8.scss */
+/* line 179, ../../sass/partials/row8.scss */
+.btn-danger:before {
+  content: "\f1d8     ";
+  font-family: fontAwesome;
+  font-size: 20px;
+}
+
+/* line 184, ../../sass/partials/row8.scss */
 footer {
   font-family: 'Great Vibes',cursive;
   color: #ffffff;
@@ -218,23 +232,23 @@ footer {
   text-align: center;
 }
 
-/* line 183, ../../sass/partials/row8.scss */
+/* line 192, ../../sass/partials/row8.scss */
 .foot {
   margin-top: 6%;
   width: 100%;
 }
 
 /*.text1row7{
-	
+
 	font-size: 2em;
-	
+
 	font-family: 'Great Vibes',cursive;
 	text-align: center;
 }
 
 .text1row71{
 	font-size: 2em;
-	
+
 	text-align: left;
 	font-family: 'Great Vibes',cursive;
 
@@ -243,31 +257,35 @@ footer {
 
 .text1row72{
 	font-size: 2em;
-	
+
 	font-family: 'Great Vibes',cursive;
 	text-align: center;
 	margin-right: 17%;
 }
 .text2row71{
 	font-size: 2em;
-	
+
 	text-align: left;
 	font-family: 'Great Vibes',cursive;
-	
+
  }*/
-/* line 219, ../../sass/partials/row8.scss */
+/* line 228, ../../sass/partials/row8.scss */
 .container#footer {
   position: relative;
 }
 
-/* line 222, ../../sass/partials/row8.scss */
+/* line 231, ../../sass/partials/row8.scss */
 .label1 {
+  font-size: 23px;
   width: 75px;
   float: left;
+  font-family: 'Great Vibes',cursive;
 }
 
-/* line 226, ../../sass/partials/row8.scss */
+/* line 237, ../../sass/partials/row8.scss */
 .label2 {
   width: 69%;
   float: left;
+  font-size: 23px;
+  font-family: 'Great Vibes',cursive;
 }

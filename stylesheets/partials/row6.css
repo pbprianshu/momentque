@@ -18,7 +18,7 @@
   top: 20px;
   display: block;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 32px;
   margin-left: -2px;
 }
 
@@ -78,7 +78,7 @@
   height: 80px;
   border: 3px solid white;
   margin-left: 30%;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 /* line 77, ../../sass/partials/row6.scss */
@@ -93,15 +93,16 @@
   margin-top: 0px;
   position: relative;
   z-index: 0;
+  padding-right: 2px;
   padding-top: 25px;
 }
 
-/* line 91, ../../sass/partials/row6.scss */
+/* line 92, ../../sass/partials/row6.scss */
 .container#row6 {
   margin: 0;
 }
 
-/* line 96, ../../sass/partials/row6.scss */
+/* line 97, ../../sass/partials/row6.scss */
 .carousel-indicators#secondsleek li {
   display: block;
   width: 12px;
@@ -113,49 +114,72 @@
   border: 1px solid #ffffff;
 }
 
-/* line 108, ../../sass/partials/row6.scss */
+/* line 109, ../../sass/partials/row6.scss */
 .container#testimonials {
   border: 1px solid black;
 }
 
-/* line 111, ../../sass/partials/row6.scss */
+/* line 112, ../../sass/partials/row6.scss */
 .bar {
   position: absolute;
-  left: 49%;
-  top: 20%;
+  left: 49.5%;
+  top: 33%;
   z-index: 2;
 }
 
-/* line 117, ../../sass/partials/row6.scss */
+/* line 118, ../../sass/partials/row6.scss */
 .dot {
   position: relative;
-  left: 48.2%;
-  top: 40%;
+  left: 48.5%;
+  top: 53%;
   z-index: 3;
 }
 
-/* line 124, ../../sass/partials/row6.scss */
-.btn-danger:before {
-  content: "\f1d8     ";
+/* line 125, ../../sass/partials/row6.scss */
+.slick-dots li button {
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 12px;
+  height: 12px;
+  margin-left: 3px;
+  margin-top: 2px;
 }
 
-/* line 137, ../../sass/partials/row6.scss */
+/* line 133, ../../sass/partials/row6.scss */
+.slick-dots li button:before {
+  color: transparent;
+  margin-bottom: 10px;
+}
+
+/* line 142, ../../sass/partials/row6.scss */
+address {
+  margin-bottom: 20px;
+}
+
+/* line 145, ../../sass/partials/row6.scss */
+.slick-dots li.slick-active button:before {
+  position: absolute;
+  font-size: 12px;
+  color: white;
+}
+
+/* line 160, ../../sass/partials/row6.scss */
 .padding-0 {
   padding-right: 3px;
   padding-left: 3px;
 }
 
-/* line 143, ../../sass/partials/row6.scss */
+/* line 166, ../../sass/partials/row6.scss */
 .padding-3 {
   padding-bottom: 6px;
 }
 
-/* line 147, ../../sass/partials/row6.scss */
+/* line 170, ../../sass/partials/row6.scss */
 .padding-1 {
   padding-top: 6px;
 }
 
-/* line 150, ../../sass/partials/row6.scss */
+/* line 173, ../../sass/partials/row6.scss */
 .border2 {
   border: 2px solid grey;
   position: absolute;
@@ -166,7 +190,7 @@
   margin-top: 6px;
 }
 
-/* line 170, ../../sass/partials/row6.scss */
+/* line 193, ../../sass/partials/row6.scss */
 .heading#head3::before {
   border-bottom: 2px solid black;
   position: absolute;
@@ -175,19 +199,19 @@
   margin-top: 81px;
 }
 
-/* line 186, ../../sass/partials/row6.scss */
+/* line 209, ../../sass/partials/row6.scss */
 .about-hidden {
   top: 12em;
 }
 
-/* line 189, ../../sass/partials/row6.scss */
+/* line 212, ../../sass/partials/row6.scss */
 .col-md-6#about-hidden {
   top: -14em;
   right: 0em;
   left: 0em;
 }
 
-/* line 194, ../../sass/partials/row6.scss */
+/* line 217, ../../sass/partials/row6.scss */
 .details-hidden {
   font-family: "Great Vibes", cursive;
   margin-left: 9em;

@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Maratre";
+  src: url('/momentque/fonts/Maratre.otf?1517220125') format('opentype'), url('/momentque/fonts/Maratre.ttf?1517220125') format('truetype'), url('/momentque/fonts/maratre.eot?1517220125') format('embedded-opentype'), url('/momentque/fonts/maratre.woff?1517220125') format('woff'), url('/momentque/fonts/maratre.woff2?1517220125') format('woff2');
+}
+/* line 1, ../../sass/partials/hovereffect.scss */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+/* line 15, ../../sass/partials/hovereffect.scss */
+.img1:hover #img41 {
+  opacity: 0.7;
+}
+/* line 18, ../../sass/partials/hovereffect.scss */
+.img1:hover .overlay {
+  height: 35%;
+}
+
+/* line 26, ../../sass/partials/hovereffect.scss */
+.img2:hover #img42 {
+  opacity: 0.7;
+}
+/* line 29, ../../sass/partials/hovereffect.scss */
+.img2:hover .overlay {
+  height: 35%;
+}
+
+/* line 36, ../../sass/partials/hovereffect.scss */
+.img3:hover #img43 {
+  opacity: 0.7;
+}
+/* line 39, ../../sass/partials/hovereffect.scss */
+.img3:hover .overlay {
+  height: 35%;
+}
+
+/* line 46, ../../sass/partials/hovereffect.scss */
+.img4:hover #img44 {
+  opacity: 0.7;
+}
+/* line 49, ../../sass/partials/hovereffect.scss */
+.img4:hover .overlay {
+  height: 35%;
+}
+
+/* line 56, ../../sass/partials/hovereffect.scss */
+.img5:hover #img45 {
+  opacity: 0.7;
+}
+/* line 59, ../../sass/partials/hovereffect.scss */
+.img5:hover .overlay {
+  height: 35%;
+}
+
+/* line 64, ../../sass/partials/hovereffect.scss */
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  border: 2px solid black;
+  background-color: white;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}

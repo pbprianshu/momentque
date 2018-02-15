@@ -32,11 +32,11 @@
 
 	width: 12px;
 	height: 12px;
-	
+
 	border-radius: 50%;
 	border: 1px solid #ffffff;
 	background-color: transparent;
-	
+
 }
 .container-fluid#MainContainer {
 	overflow-y: hidden;
@@ -76,14 +76,14 @@
 /*.navbar-expand-lg{
 	position: absolute;
 	z-index: 2;
-	
+
     font-family: 'Great Vibes', cursive;
     font-size: 1.9em;
     color: white;
     top: 3.5%;
 }*/
 .navbar-expand-lg .navbar-nav>li>a
-{   
+{
     color: white;
     margin-bottom: 0px;
     margin-right: 40px;
@@ -97,7 +97,7 @@
 
 }
 .navbar .navbar-brand{
-	
+
 	font-size: 0.8em;
 
 }
@@ -124,11 +124,11 @@
   content: ' ';
   color: transparent;
   background: white;
-  
+
 }
 .navbar .navbar-nav>.active>a {
     background-color: transparent;
-    
+
     padding-bottom: 0.2em;
     border-bottom: 0.15em solid #FFF;
 }
@@ -142,7 +142,7 @@
 	z-index: 20;
 	top: 20%;
 	left: 0%;
-	
+
 }
 
 
@@ -155,9 +155,9 @@
     height: 100px;
     left:  48.8%;
     margin-top: -18px;
-   
-    
-    
+
+
+
 }
 
 .bordervector{
@@ -168,7 +168,7 @@
 	left: 39%;
 	padding-top: 7.3%;
 	display: block;
-	
+
 }
 img#logo1{
 	width: 30%;
@@ -190,10 +190,10 @@ img#logo1{
 
     background-color: rgba(0, 0, 0, .75);*/
      position: absolute;
-  
+  top: 1%;
+	margin-right: 2%;
   left: 0;
   right: 0;
   z-index: 10;
-    
-}
 
+}
