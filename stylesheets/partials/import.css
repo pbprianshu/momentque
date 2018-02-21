@@ -2,6 +2,10 @@
   font-family: "Maratre";
   src: url('/momentque/fonts/Maratre.otf?1517220125') format('opentype'), url('/momentque/fonts/Maratre.ttf?1517220125') format('truetype'), url('/momentque/fonts/maratre.eot?1517220125') format('embedded-opentype'), url('/momentque/fonts/maratre.woff?1517220125') format('woff'), url('/momentque/fonts/maratre.woff2?1517220125') format('woff2');
 }
+@font-face {
+  font-family: "Great Vibes";
+  src: url('/momentque/fonts/GreatVibesRegular.woff2?1519030290') format('woff2'), url('/momentque/fonts/GreatVibesRegular.otf?1518560932') format('opentype'), url('/momentque/fonts/GreatVibesRegular.ttf?1455082352') format('truetype');
+}
 /* line 1, ../../sass/partials/hovereffect.scss */
 .overlay {
   position: absolute;

@@ -4,6 +4,226 @@
 /*First Row Line no:- 24-172
 /*second Row About us:- 176-263
 /*Third row Portfolio : 266-326*/
+
+
+.demos a {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demos a:hover {
+  opacity: .5;
+}
+#section10 a {
+  padding-top: 60px;
+}
+#section10 a span {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+#section10 a span::before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: sdb10 2s infinite;
+  animation: sdb10 2s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb10 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb10 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+.social i {
+  margin: .3em;
+  cursor: pointer;
+  transition: color 300ms ease, margin-top 300ms ease;
+  transform: translateZ(0);
+}
+.social i:hover {
+  margin-top: -1px;
+}
+.social i.fa-twitter:hover {
+  color: #3cf;
+	margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+
+}
+.social i.fa-pinterest-p:hover {
+  color: #cc2127;
+
+}
+.social i.fa-instagram:hover {
+  color: #3f729b;
+
+}
+
+.social i.fa-facebook:hover {
+  color: #3b5998;
+
+}
+.social i.fa-google:hover {
+  color: #dc4a38;
+
+}
+
+
+
+.grid a {
+	//float: left;
+
+	color: #333;
+}
+.grid figure {
+	position: relative;
+	overflow: hidden;
+	margin: 5px;
+	background: #333;
+}
+.grid figure img {
+	position: relative;
+	display: block;
+	width: 100%;
+	opacity: 0.7;
+	transition: opacity 0.3s;
+}
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	z-index: 11;
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-family: 'Great vibes';
+}
+.grid figcaption h2 {
+	margin: 0px 0 10px 0;
+	color: white;
+
+	letter-spacing: 0px;
+	font-weight: 300;
+	font-size: 190%;
+	transition: transform 0.3s;
+}
+
+.grid figcaption p {
+	padding: 0 20px;
+	color: #aaa;
+	font-weight: 300;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.grid figcaption h2,
+.grid figcaption p {
+	transform: translateY(50px);
+}
+.grid figure button {
+	position: absolute;
+	padding: 4px 20px;
+	border: none;
+
+	letter-spacing: 1px;
+	font-weight: bold;
+	transition: opacity 0.3s, transform 0.3s;
+}
+.grid figcaption,
+.grid figcaption h2,
+.grid figcaption p,
+.grid figure button {
+	backface-visibility: hidden;
+}
+.grid svg {
+	position: absolute;
+	top: -1px; /* fixes rendering issue in FF */
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+.grid svg path {
+	fill: #fff;
+	fill-opacity: 0.3;
+}
+.grid a:hover figure img {
+	opacity: 1;
+}
+
+.grid a:hover figcaption h2,
+.grid a:hover figcaption p {
+	transform: translateY(0);
+}
+
+.grid a:hover figcaption p {
+	opacity: 0;
+}
+.grid figure button,
+{
+	top: 50%;
+	left: 50%;
+	border: 3px solid #fff;
+	background: transparent;
+	color: #fff;
+	opacity: 0;
+	transform: translateY(-50%) translateX(-50%) scale(0.25);
+}
+.grid a:hover figure button,
+{
+	opacity: 1;
+	transform: translateY(-50%) translateX(-50%) scale(1);
+}
 /* Loader---------------------------------------------------------------------------------------------------*/
 h1{
 	font-family: "Maratre";
@@ -472,12 +692,17 @@ h1{
 	margin: 0 auto;
 }
 .carousel-indicators#firstsleek {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    top: 34%;
-    left: 78%;
+    // margin-top: 0;
+    // margin-bottom: 0;
+    // margin-left: 0;
+    // margin-right: 0;
+    // top: 34%;
+    // left: 78%;
+    position: relative;
+		float: right;
+		margin-right: 19px;
+        z-index: 15;
+	margin-top: -25%;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -485,6 +710,8 @@ h1{
     transform: rotate(90deg);
     max-height: 100px;
 }
+
+
 .carousel-indicators li{
 	width: 12px;
 	height: 12px;
@@ -581,7 +808,7 @@ h1{
   width: 100px;
   height: 100px;
   left:  48.8%;
-  margin-top: -18px;
+  margin-top: -16px;
 }
 .bordervector
 {
@@ -636,7 +863,7 @@ img#logo1
   border-left: 1px solid black;
 	box-shadow: 0px 0px 10px grey;
 	outline: 3px solid white;
-  outline-offset: -20px;
+  outline-offset: -20px -10px;
 }
 #img22
 {
@@ -682,7 +909,7 @@ img#logo1
   padding: 0;
   width: 30%;
   margin-left: 35%;
-  margin-top: -1.8em;
+  margin-top: -30px;
 }
 .small
 {
@@ -693,7 +920,7 @@ img#logo1
   padding: 0;
   width: 60%;
   margin-left: 20%;
-  margin-top: -2.30em;
+  margin-top: -30px;
 }
 .heading#head1::before
 {
@@ -732,6 +959,7 @@ img#logo1
 }
 #img41
 {
+
   width:100% ;
   outline: 1px solid white;
   outline-offset: -10px;
@@ -743,7 +971,7 @@ img#logo1
 #img43
 {
 	width:100%;
-  margin-bottom: 7px;
+
 }
 #img44
 {
@@ -752,20 +980,22 @@ img#logo1
 #img45
 {
 	width:100%;
+	margin-top: -15px;
 }
 .imagequote
 {
 	border: 1px solid grey;
-	width: 100%;
-	height: 187px;
+	width: 97.5%;
+	height: 178px;
 	margin-top: 6px;
 	font-family: Maratre;
 	font-size: 4.4em;
 	text-align: center;
 	line-height: 0.9em;
 	font-weight: normal;
-	padding-top: 40px;
+	padding-top: 28px;
 	margin-bottom: 6px;
+	margin-left: 5px;
 }
 
 
@@ -803,7 +1033,7 @@ img#logo1
 {
   position: absolute;
   z-index: 1;
-  margin-top: 15px;
+  margin-top: 27px;
   width: 85;
   margin-left: 5%;
   font-family: Maratre;
@@ -816,9 +1046,9 @@ img#logo1
 {
   position: absolute;
   z-index: 2;
-  margin-top: 90px;
+  margin-top: 103px;
   width: 65%;
-  margin-left: 5%;
+  margin-left: 7%;
   font-family: 'Great Vibes', cursive;
   color: #6c6c6c;
   font-size: 24px;/* Approximation due to font substitution */
@@ -831,8 +1061,8 @@ img#logo1
    z-index: 1;
    height: 130px;
    width: 150px;
-   margin-top: 100px;
-   margin-left: 15%;
+   margin-top: 110px;
+   margin-left: 18%;
 }
 .carousel-indicators#second-sleek
 {
@@ -995,7 +1225,7 @@ address
 	margin-right: auto;
 	display: block;
   margin-top: auto;
-  padding-top: 70%;
+  padding-top: 55%;
   margin-bottom: auto;
   text-align: center;
 }
@@ -1057,6 +1287,9 @@ address
 	font-size: 150%;
 	margin-top: -1em;
 	text-align: center;
+	text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+
 }
 .social
 {
@@ -1068,6 +1301,8 @@ address
 	color: black;
   padding: 0.23em 0.26em;
   margin-left:  5%;
+
+
 }
 .fa-google
 {

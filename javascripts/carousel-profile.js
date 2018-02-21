@@ -1,8 +1,11 @@
 
 $(window).on('load', function(){
-  $('.parent').fadeOut(3000);
+  $('.parent').fadeOut(2000);
+
 
 });
+
+
 
 
 //$('#mySlider').on('slide.bs.carousel', function (e) {
@@ -39,6 +42,40 @@ $(window).on('load', function(){
     //},1000);
 
 //});
+$(function() {
+  $('.scrolls').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
+
+AOS.init();
+(function() {
+
+	function init() {
+		var speed = 250;
+    var easing = mina.easeinout;
+
+		[].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+			var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+				pathConfig = {
+					from : path.attr( 'd' ),
+					to : el.getAttribute( 'data-path-hover' )
+				};
+
+			el.addEventListener( 'mouseenter', function() {
+				path.animate( { 'path' : pathConfig.to }, speed, easing );
+			} );
+
+			el.addEventListener( 'mouseleave', function() {
+				path.animate( { 'path' : pathConfig.from }, speed, easing );
+			} );
+		} );
+	}
+
+	init();
+
+})();
 $('.slic').slick({
   dots: true,
   infinite: false,

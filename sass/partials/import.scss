@@ -1,5 +1,6 @@
 @import "compass";
 @include font-face("Maratre",font-files("Maratre.otf","Maratre.ttf", "maratre.eot", "maratre.woff","maratre.woff2"));
+@include font-face("Great Vibes", font-files("GreatVibesRegular.woff2","GreatVibesRegular.otf","GreatVibesRegular.ttf"));
 @import "partials/normalize";
 @import "partials/variables";
 @import "partials/hovereffect";
