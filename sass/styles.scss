@@ -4,7 +4,69 @@
 /*First Row Line no:- 24-172
 /*second Row About us:- 176-263
 /*Third row Portfolio : 266-326*/
-
+.go_top.js_go_top_fix {
+    position: fixed;
+    top: inherit;
+    bottom: 15px;
+		right: 5%;
+}
+.go_top.js_go_top_hide {
+    opacity: 0;
+    z-index: -1;
+}
+.go_top {
+	 border-radius: 20%;
+    display: block;
+    width: 60px;
+    height: 65px;
+    position: absolute;
+    top: -80px;
+    right: 15px;
+    cursor: pointer;
+    background: #231e20;
+    -webkit-transition: opacity 0.3s, background 0.3s;
+    transition: opacity 0.3s, background 0.3s;
+    z-index: 999;
+}
+.go_top span:after {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '\f062';
+		font-family: fontAwesome;
+    font-size: 10px;
+    line-height: 47px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    -webkit-transition: color 300ms;
+    transition: color 300ms;
+}
+.foots a {
+    font-size: 15px;
+    color: #c0c79c;
+    text-decoration: none;
+}
+.go_top span {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 32px;
+    position: relative;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-indent: 0.2em;
+    color: #fff;
+		font-family: sans-serif;
+}
+.foots{
+	position: absolute;
+}
 
 .demos a {
   position: absolute;
@@ -151,7 +213,7 @@
 	font-family: 'Great vibes';
 }
 .grid figcaption h2 {
-	margin: 0px 0 10px 0;
+	margin: 20px 0 10px 0;
 	color: white;
 
 	letter-spacing: 0px;
@@ -765,6 +827,10 @@ h1{
   position: relative;
   text-align: center;
 }
+.navbar-brand:hover{
+
+ padding: 6px 0;
+}
 .navbar-nav li a:after
 {
   position: absolute;
@@ -781,10 +847,10 @@ h1{
 .navbar-nav li a:hover:after
 {
   width: 100%;
-  width: 0%;
   content: ' ';
-  color: transparent;
-  background: white;
+  color: white;
+  border-bottom: 4px solid #ffffff;
+  
 }
 .navbar .navbar-nav>.active>a
 {
@@ -863,7 +929,7 @@ img#logo1
   border-left: 1px solid black;
 	box-shadow: 0px 0px 10px grey;
 	outline: 3px solid white;
-  outline-offset: -20px -10px;
+  outline-offset: -20px;
 }
 #img22
 {
@@ -871,7 +937,8 @@ img#logo1
 	position: relative;
 	z-index: 3;
 	left: 51%;
-	margin-top: -135%;
+	margin-top: -93%;
+	transform: translate3d(0px, -50%, 0px);
 }
 #img32
 {
@@ -879,7 +946,9 @@ img#logo1
 	position: relative;
 	z-index: 2;
 	left: 20%;
-	margin-top: -30%;
+	margin-top: 0%;
+	margin-bottom: -30%;
+	transform: translate3d(0px, -90%, 0px);
 }
 .heading
 {
@@ -1078,7 +1147,9 @@ img#logo1
 	width: 80px;
 	height: 80px;
 	border: 3px solid white;
-	margin-left: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 20px;
 }
 .cards
@@ -1115,16 +1186,21 @@ img#logo1
 .bar
 {
 	position: absolute;
-	left: 49.5%;
+
 	top: 33%;
 	z-index: 2;
+	left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
 }
 .dot
 {
 	position: relative;
-	left: 48.5%;
+
 	top: 53%;
 	z-index: 3;
+	text-align: center;
 }
 .slick-dots li button {
   border: 2px solid white;

@@ -10,7 +10,9 @@ gulp.task('concat',function(){
    gulp.src(['./stylesheets/bootstrap.min.css',
              './stylesheets/slick.css',
               './stylesheets/slick-theme.css',
-              './stylesheets/styles.css'])
+              './stylesheets/aos.css',
+              './stylesheets/styles.css'
+              ])
   .pipe(concat('app.css'))
   .pipe(gulp.dest('minify'))
 })
@@ -24,7 +26,9 @@ gulp.task('uglify',function(){
           './javascripts/bootstrap.min.js',
            './javascripts/slick.js',
             './javascripts/snap.svg-min.js',
-             './javascripts/carousel-profile.js'])
+            './javascripts/aos.js',
+             './javascripts/carousel-profile.js'
+              ])
              .pipe(concat('app.js'))
   .pipe(uglify())
   .pipe(gulp.dest('javascripts'))
