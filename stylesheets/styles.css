@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Maratre";
-  src: url('/momentque/fonts/Maratre.otf?1517220125') format('opentype'), url('/momentque/fonts/Maratre.ttf?1517220125') format('truetype'), url('/momentque/fonts/maratre.eot?1517220125') format('embedded-opentype'), url('/momentque/fonts/maratre.woff?1517220125') format('woff'), url('/momentque/fonts/maratre.woff2?1517220125') format('woff2');
+  src: url('/momentque/fonts/Maratre.otf') format('opentype'), url('/momentque/fonts/Maratre.ttf') format('truetype'), url('/momentque/fonts/maratre.eot') format('embedded-opentype'), url('/momentque/fonts/maratre.woff') format('woff'), url('/momentque/fonts/maratre.woff2') format('woff2');
 }
 @font-face {
   font-family: "Great Vibes";
-  src: url('/momentque/fonts/GreatVibesRegular.woff2?1519030290') format('woff2'), url('/momentque/fonts/GreatVibesRegular.otf?1518560932') format('opentype'), url('/momentque/fonts/GreatVibesRegular.ttf?1455082352') format('truetype');
+  src: url('/momentque/fonts/GreatVibesRegular.woff2') format('woff2'), url('/momentque/fonts/GreatVibesRegular.otf') format('opentype'), url('/momentque/fonts/GreatVibesRegular.ttf') format('truetype');
 }
 /* line 1, ../sass/partials/hovereffect.scss */
 .overlay {
@@ -1358,7 +1358,7 @@ img#logo1 {
 .bar {
   position: absolute;
   top: 33%;
-  z-index: 2;
+  z-index: -1;
   left: 0;
   right: 0;
   bottom: 0;
@@ -1554,8 +1554,8 @@ address {
   font-size: 150%;
   margin-top: -1em;
   text-align: center;
-  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
-  transition: all ease-in-out 150ms;
+  /*text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);*/
+  /*transition: all ease-in-out 150ms;*/
 }
 
 /* line 1370, ../sass/styles.scss */
@@ -1598,7 +1598,7 @@ address {
 .fa-instagram {
   background: white;
   color: black;
-  padding: 0.28em 0.36em;
+  padding: 0.27em 0.36em;
   margin-left: 5%;
 }
 

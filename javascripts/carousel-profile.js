@@ -12,43 +12,11 @@ $(window).on('load', function(){
 
 
 
-//$('#mySlider').on('slide.bs.carousel', function (e) {
 
-
-    //var $e = $(e.relatedTarget);
-
-
-    //$('.carousel#mySlider.active').addClass('sliding');
-
-   //$e.removeClass('active-next');
-
-
-
-    //var $next = $e.next();
-    /*var $nextnext = $e.next().next();*/
-
-  /* if ($next.length==0){
-      $next = $('.carousel-item#secondsleek').eq(0);
-    }
-
-    if ($nextnext.length==0){
-      $nextnext = $('.carousel-item#secondsleek').eq(1);
-    }*/
-    //$next.addClass('active-next');
-
-
-    //$('.carousel#mySlider.active').removeClass('active');
-
-
-
-    //setTimeout(function(){
-      //  $('.carousel#mySlider.active, .carousel#mySlider.active-next').removeClass('sliding');
-    //},1000);
-
-//});
 // scroll top button
 // scroll top button
-function scroll_top(){
+function scroll_top()
+{
 
     var $window = $(window);
     var $document = $(document);
@@ -63,7 +31,8 @@ function scroll_top(){
         return false;
     });
 
-    $window.on('scroll', function() {
+    $window.on('scroll', function()
+    {
         if ($window.scrollTop() < $document.height()  - ($scrollBtn.height()*2)) {
             $('#go_top').css({
                 'right': scroll_top_right
@@ -109,45 +78,17 @@ function is_screen(max_width){
 
 
 
-// scroll down button
-function scroll_down(){
 
-    $('.scroll_down').on('click',function(){
-
-        if( $('#fullpage').length > 0 ) {
-
-            if(is_screen(1023) && $(this).closest('.full_section').hasClass('perfection_visual')){
-                $.fn.fullpage.moveTo(3);
-            } else {
-                $.fn.fullpage.moveSectionDown();
-            }
-
-        } else {
-            var target = $(this).attr('href');
-            var target_top = $(target).offset().top;
-            var header_height = $('#header').height();
-
-            $('html,body').animate({
-                scrollTop : target_top - header_height + 20
-            }, 800);
-        }
-
-        return false;
-
-    });
-
-}
-
+//banner scroller
 $(function() {
   $('.scrolls').on('click', function(e) {
     e.preventDefault();
-     console.log("clicked");
     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
   });
 });
 
 
-
+//footer form
 function validateForm() {
     var x = document.forms["myForm"]["fname"].value;
     if (x == "") {
@@ -157,7 +98,7 @@ function validateForm() {
 }
 
 
-
+//imagegallery svg hover effect
 (function() {
 
 	function init() {
@@ -184,6 +125,8 @@ function validateForm() {
 	init();
 
 })();
+
+//Slick in testimonials
 $('.slic').slick({
   dots: true,
   infinite: false,
@@ -206,7 +149,7 @@ $('.slic').slick({
 });
 
 
-
+    //navbar menu active underline
     $('.navbar-nav li').on("click", function() {
       $('.navbar-nav li').removeClass("active");
       $(this).addClass("active");
